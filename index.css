@@ -90,6 +90,7 @@ a { text-decoration: none; }
 .work li:first-child .work-description { padding-right: 30px; margin-right: 30px; border-right: 1px solid rgb(222, 222, 222);color:#563c25; }
 .work-description { font-size: 14px; text-align: justify; line-height: 18px; width: 340px; }
 .self-description { font-size: 14px; text-align: justify; line-height: 18px;}
+.self-description .text { font-size: 14px; text-align: justify; line-height: 18px;}
 .open-source-description { font-size: 14px; text-align: justify; line-height: 18px; width: 340px; }
 .open-source li { float: left; height: 160px; }
 .open-source li:nth-child(1) .open-source-description, .open-source li:nth-child(3) .open-source-description { padding-right: 30px; margin-right: 30px; border-right: 1px solid rgb(222, 222, 222); }
