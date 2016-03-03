@@ -1,0 +1,99 @@
+/* ::::: http://www.zation.me/stylesheets/main.css?1401972436 ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0px; padding: 0px; border: 0px none; font-family: Arial,"微软雅黑"; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; font-size-adjust: inherit; font-stretch: inherit; -moz-font-feature-settings: inherit; -moz-font-language-override: inherit; font-size: 100%; vertical-align: baseline; }
+html { line-height: 1; }
+ol, ul { list-style: none outside none; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
+@font-face {
+	font-family: Arial, "微软雅黑";
+	font-style: normal;
+	font-weight: 400;
+	src: url('icons.eot') format("embedded-opentype"), url('icons.woff') format("woff"), url('icons.ttf') format("truetype"), url('icons.svg') format("svg");
+}
+.sprites-sprite, .extro-info .date, .extro-info .tag, .extro-info .comment, .person .detail-info-title, .skills .detail-info-title, .work .detail-info-title, .education .detail-info-title, .open-source .detail-info-title, .logo { background: url('sprites-sb89f1a4ecc.png') no-repeat scroll 0% 0% transparent; }
+body { background: none repeat scroll 0% 0% rgb(246, 246, 246); }
+a, body { font-family: Arial,"微软雅黑"; color: #563c25; }
+a { text-decoration: none; }
+.nav-container { overflow: visible; position: relative; }
+.nav li { display: inline; margin-left: 50px; }
+.nav a { transition: color 0s ease 0s, all 0.25s ease 0s; line-height: 50px; font-size: 24px; color: rgb(153, 153, 153); }
+.page-footer .nav a.active, .nav a.active { color: rgb(17, 17, 17); }
+.page-footer .nav a:hover, .nav a:hover { color: rgb(17, 17, 17); }
+.page-footer .nav a { color: rgb(231, 180, 24); }
+.search-container { transition: border-color 1s linear 0s; float: right; margin: 8px; position: relative; }
+.search-cancel { text-indent: -119988px; overflow: hidden; text-align: left; display: none; line-height: 32px; width: 32px; border: 0px none; background: none repeat scroll 0% 0% transparent; padding: 0px; margin: 0px; cursor: pointer; position: absolute; left: -32px; z-index: 1; }
+.search-cancel-icon { transition: opacity 0.4s linear 0s; opacity: 0; text-align: center; position: absolute; left: -32px; font-size: 24px; line-height: 32px; width: 32px; }
+.search { transition: width 0.4s linear 0s, border-color 0.25s linear 0s, box-shadow 0.25s linear 0s; height: 18px; width: 18px; border-radius: 18px; background: none repeat scroll 0% 0% white; border: 3px solid rgb(153, 153, 153); outline: medium none; padding: 3px; font-size: 0px; box-shadow: 0px 0px 2px rgb(153, 153, 153) inset, 0px 0px 2px rgb(153, 153, 153); position: relative; top: 2px; }
+.search-qualifier { transition: border-color 0.25s linear 0s; display: block; height: 8px; width: 0px; border: 3px solid rgb(153, 153, 153); border-radius: 3px; content: ""; position: absolute; top: 24px; right: 2px; transform: rotate(-45deg); transform-origin: 50% 0px 0px; animation: 6s ease 0s normal none infinite qualifier-shaking; }
+.search-container:hover .search-qualifier, .active .search-qualifier { border-color: rgb(17, 17, 17); animation: 0s ease 0s normal none 1 none; }
+.search-container:hover .search { border-color: rgb(17, 17, 17); box-shadow: 0px 0px 3px rgb(51, 51, 51) inset, 0px 0px 2px rgb(51, 51, 51); }
+.page-footer .search-container { visibility: hidden; }
+.search-result { position: absolute; margin-top: 10px; border-radius: 16px; width: 300px; font-size: 18px; }
+.social-links { float: right; overflow: hidden; margin-top: 10px; }
+.social-links .google-plus:before { content: "+"; }
+.social-links .weibo:before { content: "J"; }
+.social-links .rss:before { content: "R"; }
+.social-links .facebook:before { content: "f"; }
+.social-links .github:before { content: ""; }
+.page-footer .social-links li { color: rgb(231, 180, 24); }
+.social-links li { transition: color 0.25s ease 0s, margin 0.4s linear 0s, opacity 0.4s linear 0s; float: right; margin: 0px 8px; width: 32px; line-height: 32px; font-size: 24px; color: rgb(153, 153, 153); text-align: center; font-family: 'Arial',"微软雅黑"; position: relative; cursor: pointer; }
+.social-links li:hover { color: rgb(17, 17, 17); }
+.social-links li a { text-indent: -119988px; overflow: hidden; text-align: left; display: block; width: 100%; position: absolute; top: 0px; z-index: 1; }
+@media screen {
+}
+.article-content button::-moz-focus-inner, .article-content input::-moz-focus-inner { border: 0px none; padding: 0px; }
+.article-content input:not([type="image"]), .article-content textarea { box-sizing: content-box; }
+.article-content button::-moz-focus-inner { padding: 0px; border: 0px none; }
+.resume article, .resume article a { color: #563c25; }
+.resume article { width: 800px; background: none repeat scroll 0% 0% white; box-shadow: 0px 2px 6px 0px rgb(204, 204, 204); padding: 40px 20px; margin: 20px auto; border: 1px solid rgb(221, 221, 221); }
+.generate-info { text-align: right; }
+.generate-info .title { color: rgb(144, 196, 192); font-size: 48px; font-weight: 700; display: block; margin-bottom: 10px; }
+.generate-info .subtitle { color: rgb(157, 204, 205); font-weight: lighter; font-size: 18px; display: block; }
+.detail-info { margin-bottom: 30px; }
+.detail-info-title { line-height: 32px; padding-left: 40px; font-size: 18px; font-weight: 700; }
+.detail-info-content { margin-left: 40px; border-top: 2px dotted rgb(206, 206, 206); border-bottom: 2px dotted rgb(206, 206, 206); padding: 10px 0px; overflow: hidden; }
+.person .detail-info-title { background-position: 0px -183px; }
+.skills .detail-info-title { background-position: 0px -150px; }
+.work .detail-info-title { background-position: 0px -117px; }
+.education .detail-info-title { background-position: 0px -50px; }
+.open-source .detail-info-title { background-position: 0px -249px; }
+.resume .primary-enhance a, .resume .primary-enhance { font-size: 24px; color: #563c25; margin-bottom: 5px; font-weight: 700; }
+.resume .enhance { font-size: 14px; color: rgb(157, 204, 205); margin-bottom: 10px; }
+.resume .reduce { font-size: 14px; margin-bottom: 10px; }
+.person-info-list { overflow: hidden; }
+.person-info-list li { float: left; margin-right: 25px; padding-right: 65px; border-right: 1px solid rgb(222, 222, 222); }
+.person-info-list li:last-child { margin: 0px; padding: 0px; border: 0px none; }
+.person-info-title { display: block; margin-bottom: 5px; color: rgb(157, 204, 205); }
+.skill-bar { overflow: hidden; margin-bottom: 10px; text-align: center; }
+.skill-bar:last-child { margin-bottom: 0px; }
+.skill-title { width: 100px; border: 1px solid; float: left; padding: 10px; border-top-left-radius: 10px; border-bottom-left-radius: 10px; }
+.skill-items { float: left; }
+.skill-items li { float: left; padding: 11px; box-sizing: border-box; }
+.javascript .skill-title { border-color: rgb(244, 226, 152); }
+.javascript .skill-items { width: 600px; }
+.javascript .skill-items li:nth-child(1) { background: none repeat scroll 0% 0% rgb(244, 226, 152); width: 30%; }
+.javascript .skill-items li:nth-child(2) { background: none repeat scroll 0% 0% rgb(246, 232, 175); width: 20%; }
+.javascript .skill-items li:nth-child(3) { background: none repeat scroll 0% 0% rgb(249, 239, 198); width: 30%; }
+.javascript .skill-items li:nth-child(4) { background: none repeat scroll 0% 0% rgb(251, 245, 221); width: 20%; }
+.css .skill-title { border-color: rgb(244, 226, 152); }
+.css .skill-items { width: 500px; }
+.css .skill-items li:nth-child(1) { background: none repeat scroll 0% 0% rgb(244, 226, 152); width: 30%; }
+.css .skill-items li:nth-child(2) { background: none repeat scroll 0% 0% rgb(246, 232, 175); width: 40%; }
+.css .skill-items li:nth-child(3) { background: none repeat scroll 0% 0% rgb(249, 239, 198); width: 30%; }
+.process .skill-title { border-color: rgb(244, 226, 152); }
+.process .skill-items { width: 500px; }
+.process .skill-items li:nth-child(1) { background: none repeat scroll 0% 0% rgb(244, 226, 152); width: 28%; }
+.process .skill-items li:nth-child(2) { background: none repeat scroll 0% 0% rgb(246, 232, 175); width: 20%; }
+.process .skill-items li:nth-child(3) { background: none repeat scroll 0% 0% rgb(249, 239, 198); width: 24%; }
+.process .skill-items li:nth-child(4) { background: none repeat scroll 0% 0% rgb(251, 245, 221); width: 28%; }
+.work li { float: left; }
+.work li:first-child .work-description { padding-right: 30px; margin-right: 30px; border-right: 1px solid rgb(222, 222, 222);color:#563c25; }
+.work-description { font-size: 14px; text-align: justify; line-height: 18px; width: 340px; }
+.self-description { font-size: 14px; text-align: justify; line-height: 18px;}
+.open-source-description { font-size: 14px; text-align: justify; line-height: 18px; width: 340px; }
+.open-source li { float: left; height: 160px; }
+.open-source li:nth-child(1) .open-source-description, .open-source li:nth-child(3) .open-source-description { padding-right: 30px; margin-right: 30px; border-right: 1px solid rgb(222, 222, 222); }
+.main-container { padding: 50px 100px; }
+.logo { text-indent: -119988px; overflow: hidden; text-align: left; display: block; background-position: 0px 0px; height: 50px; width: 50px; float: left; }
+.page-footer { background: url('yellow-shadow.jpg') repeat-x scroll 0% 0% rgb(255, 223, 31); padding: 50px 100px; }
+/* ::::: http://static.duoshuo.com/styles/embed.default.css?d6149e1c.css ::::: */
